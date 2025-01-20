@@ -1,0 +1,115 @@
+/* Algemene opmaak voor de pagina */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #f4f4f9;
+}
+
+/* Container voor de quiz */
+.quiz-container {
+    background: lightblue;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(80, 22, 255, 0.3);
+    max-width: 500px;
+    text-align: start;
+}
+
+/* Koptekststijl */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: green;
+}
+
+/* Vraagstijl */
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #f4f4f9;
+}
+
+/* Stijl voor formulier */
+form {
+    margin-top: 20px;
+}
+
+/* Radioknop opties */
+.option {
+    display: block;
+    margin: 15px 0;
+    font-size: 16px;
+    color: #f4f4f9;
+    cursor: pointer;
+}
+
+/* Inputstijl voor de radioknoppen */
+input[type="radio"] {
+    accent-color: #ff7700;
+    margin-right: 10px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* Stijl voor de knop */
+button {
+    background: #db437a;
+    color: rgb(253, 253, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: #d9d5d0;
+    transform: translateY(-2px);
+}
+
+/* Stijl voor het eindresultaat */
+.result {
+    background: #1f1f1f;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.result h1 {
+    color: #ff7700;
+}
+
+.result p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #f4f4f9;
+}
+
+/* Linkstijl voor opnieuw proberen */
+.result a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background: #ff7700;
+    color: #121212;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.result a:hover {
+    background: #ff9900;
+    transform: translateY(-2px);
+}
