@@ -1,0 +1,46 @@
+
+@font-face {
+    font-family: 'BoucherieBlock';
+    src: url('fonts/BoucherieBlock-Regular.ttf') format('truetype');
+}
+body {
+
+        font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+background: linear-gradient(45deg, rgb(32, 99, 128), rgb(143, 24, 24));
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.menu {
+    text-align: center;
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.menu button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background: #801818;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.menu button:hover {
+    background: rgb(32, 99, 128);
+}

@@ -16,6 +16,21 @@ const questions = [
       options: ["365", "366", "364", "367"],
       correctAnswer: "366",
     },
+    {
+      question: "Wat is de hoofdstad van Nederland?",
+      options: ["Amsterdam", "Rotterdam", "Den Haag", "Utrecht"],
+      correctAnswer: "Amsterdam",
+    },
+    {
+      question: "Welke kleur krijg je door blauw en geel te mengen?",
+      options: ["Groen", "Paars", "Oranje", "Bruin"],
+      correctAnswer: "Groen",
+    },
+    {
+      question: "Hoeveel dagen heeft een schrikkeljaar?",
+      options: ["365", "366", "364", "367"],
+      correctAnswer: "366",
+    },
   ];
    
   // Wacht tot de pagina geladen is
@@ -84,6 +99,8 @@ const questions = [
         // Hier kun je eventueel de quiz resetten of de gebruiker naar een andere pagina leiden
       }
     });
+
+    
    
     loadQuestion(); // Start de quiz
   });
